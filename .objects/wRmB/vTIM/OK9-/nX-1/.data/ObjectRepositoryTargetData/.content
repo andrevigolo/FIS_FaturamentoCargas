@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KnmvmV4jiU-bRmUOLNLoOw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1133, 518, 81, 24" ElementVisibilityArgument="Interactive" Guid="0d83d7bb-52e8-4518-bd45-d90ba1ce9aef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFEAAAAYCAYAAACC2BGSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAN3SURBVFhH7ZdNKLRRFMcHo2RlIaIsfNSQYoFIs5BSbMxK+VZK8rUjKZTGt52imLAwrNiJhEYpJFlgqWSj5Ctf6/P2P3Ufd+7tHTPjeYveZ/HLvefcr/Of+5xz2T4+Psjie9hUg0XoWCKagCWiCVgimoAloglYIpqAJaIJBC3iy8sLrays0OzsLO3v72v+09NT9s3Pz9Pt7a3mV3l9faXV1VWe4/P5NP9vImgR7+/vyeFwkM1mo87OTs0/OTnJvtjYWDo7O9P8Kg8PD5SZmclz2tvbNf9vwhLRBIIW8e3tjU5OTqisrIwSExOpubnZ8PX19VFKSgrl5OTQwcEBPT4+avNV/ksRBdXV1Rx4cXFxQBvY3NyklpYWP7xeL/tUES8uLowxIueqtq2tLW09FTlfI48PDg76+dva2ujq6soYc3l56edfXl7WYv6Kfybi9vY2VVVV8a1tampi0tLSqLS0lNbX1zURd3d3uQ08Hg+vodqmpqa4HRUVRS6Xi9LT07mfkJBA9fX1FBcXx/ugUF1fX9P09DQlJSWR0+lke0VFBdntdurv76fz83Muht3d3bxeZWUlr1dSUkJra2ta3IEIWcSenh5KTk6m3NxcOjo6YsrLyyk+Pp4aGhqMcTU1NZqwsu07IsbExLAAtbW13C8qKuIUkpWVxX3ctr29PWPuwMAAn3Nubs6w4RWxtLREGRkZFB0dzS+P1tZWTkl1dXVa3IEIWUTkxrGxMYqIiOBfEKANIeAT436SiJGRkXxO/JVFfH9/p52dHWMMRMbTS44jGEIWEUxMTBiHEXR0dPiN+UkiovAhV8rc3NzwHnd3dyxkamoqgwuixvsVYYl4fHxMXV1dxiGRjxCwPOa7IqKIIE+ZISJuHfaXi4hcqPAZj4+PU0FBAWVnZ9Po6KgWcyDCEhGIzwAsLCxo/pmZGT4Ucg7+KwGFhYUcqNvt1kREokcuEsUBRUmsH46IWE8Um8bGRt5fLiIQeWNjw6/YYB2caWhoSIsnEGGLeHh4yEkYoNqqfrC4uGiMEYyMjLDv6emJKyxsw8PDmk0FFROFAO38/Hy+Vb29vdyHWM/Pz8Zc/EhYT7YJ8vLy+OkkzoivSvaLuaEQtohIyniHAbRVP0CCFmMEctJGEv+bTQV7yOvJfcwJZT35vHIc6txgCVtEi08sEU3AEtEE/gBWvUQ5oLpnHQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='ifrun60.exe' cls='ui60MDIroot_W32' title='FoccoERP - [Emissão de Notas Fiscais por Carga]' /&gt;&lt;wnd aaname='Espaço de trabalho' cls='MDIClient' /&gt;&lt;wnd cls='ui60MDIdocument_W32' title='Emissão de Notas Fiscais por Carga' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="16" Y="13" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="537a758c613899775770f12514d000d0.jpg" xmlns="">0mg2usyZRnUaV3o8px8oBKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

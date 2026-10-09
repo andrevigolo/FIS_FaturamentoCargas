@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Digitar Senha",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "Nm99yYGkpEmNmkFI8CbKKg",
+  "Reference": "NH_L97teWUacEuio54ABDQ/Nm99yYGkpEmNmkFI8CbKKg",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/01OKtpI4lU2y3g172bQDcg",
+  "Created": "2026-09-30T19:07:46.4153092Z",
+  "Updated": "2026-09-30T19:07:46.4153092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

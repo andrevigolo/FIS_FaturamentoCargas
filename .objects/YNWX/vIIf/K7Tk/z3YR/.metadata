@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RPA",
+  "Type": "Element",
+  "Id": "z3YRx-URdU-d8uYjqbrnVg",
+  "Reference": "NH_L97teWUacEuio54ABDQ/z3YRx-URdU-d8uYjqbrnVg",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/K7Tkl7LkKkWLrp4AsjGhfw",
+  "Created": "2026-09-30T20:06:18.5270163Z",
+  "Updated": "2026-09-30T20:06:18.5270163Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

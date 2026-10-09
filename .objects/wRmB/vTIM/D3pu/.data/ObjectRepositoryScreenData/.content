@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="rRBCxyl8Hk-m5rZE-V-DiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="308, 56, 1274, 923" FilePath="C:\Focco\Oracle\BIN\ifrun60.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGySURBVFhH7Ze9TsMwFIVvEL8lrVCHSh2asZk6gpAqhm5R55SOfSFAYkKCgcdg4zEYeIIAYweYMDqVXcXXN1XaOKhCHOlI/rm+97OdwSHaQgXaO55t8q4UAveJqEFETe1WRSNHqHPu6RqiMHFERG1Vk5CbiA4lCBwNdl5bcSMNgZOwrgOdBg+uS/qkLQAcSZMFWZbG8o7jWFwriYiO+TVUBlgVx6U/SgegxYKcxVLfjA2HQwtgPB4v22EY8nX+AZIkKQQQ1pUHgAeDgTPG+3AQBMvx0WikOp3Ooj2fz/Op1wPgY7yfdxRFzni327XW6Hm/AFLbXIGkSgDT6VRNJhOVpqlT9FcAJEO9Xs8vQJ36B/i7AJePH+r8JrN8dp2pp5dPK84rwPPrl1N0lSFvADx5WRcCnF5lqoyTu3cn6TouBOCBst9Uf/awsDtXzkUATR4o2RSvAlEEEPJAbl68AoDzJFs8SnkgNy++CcDFbfatn+bOqxhP5TZfYNyf3TvFNwEgohMi2s0XN8KRgEyE4IXXBdA7R/EDvvu8AIGTwLsd94SPxYeRC5vDzguLG9X5c7p9+gGKvfD197/caQAAAABJRU5ErkJggg==" Selector="&lt;wnd app='ifrun60.exe' cls='ui60MDIroot_W32' title='FoccoERP - [Emissão de Notas Fiscais por Carga]' /&gt;" Version="V3">
+      <imageRef attrName="InformativeScreenshot" originalValue="9fd54fc977b92fe262b58445fec94605.jpg" xmlns="">0L_XzBwC8NUqGzvVf4buhLQ</imageRef>
+    </TargetApp>
+    <NInteractionMode x:Key="InteractionMode">HardwareEvents</NInteractionMode>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

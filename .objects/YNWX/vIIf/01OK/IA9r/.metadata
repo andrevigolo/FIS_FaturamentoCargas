@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Digitar Usuário",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IA9rd9t46kyLTzI-lRR6Kw",
+  "Reference": "NH_L97teWUacEuio54ABDQ/IA9rd9t46kyLTzI-lRR6Kw",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/01OKtpI4lU2y3g172bQDcg",
+  "Created": "2026-09-30T19:07:29.3500634Z",
+  "Updated": "2026-09-30T19:07:29.3500634Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

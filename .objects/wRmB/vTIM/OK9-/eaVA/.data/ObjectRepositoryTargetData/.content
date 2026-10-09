@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SUzD9Gmnrkyvxu_72fYm8A" Reference="NH_L97teWUacEuio54ABDQ/eaVAvewRqUmCR-Sx6XX3lA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="369, 328, 61, 30" ElementVisibilityArgument="Interactive" Guid="4aa2d994-672f-4b71-98b5-52f74424de2f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD0AAAAeCAYAAACfWhZxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIUSURBVFhH7ZktjgJBEEYnQWAwGBIOgMZgMUgOgOEOHIAEzR0wHACJwWLQHIAEgyEhJEDQTV4nNemt6YXZ2e3dyTbiy8zWVDf9auqHLMn9fjcx6XQ6mUQb/7uihL7dbvFBXy6X+KCjTO83dCx6Q8eiwtDH49HsdruMDodDxrdsKgw9nU5Ns9nMaDgcZnzLpkLQk8nEtFot0+l0zGKxSDUYDEyj0bDgZX7jhaD7/b5JksReXftqtTLj8dhmAemv15VFPwrt03a7/ZANCBvPzuezWS6XqX29XqfruNfrnq1F/I1dn0ErOLSu/Wq1akajkU1/Gh829qrVarYsrter2e/3ptfrWRvPKZlKpWL9yCT2xafdbqf71ut167fZbF6CB4fWXV5gAHShJRACI8HBBxCAXGgJjuw7m81sYPDjjetzuAoOPZ/PrZ9IDs+9Cy0weW0EiMDJvjRVniNSXZ/DVVBogLvdru30HBZx/11o6posIGOYGNi4/gm0NC1pKD4/16ZheJ7HxmdoQJ/tMxWCJq2IMvXp1ivRpxapSerN58f9M+g8NU1QpblRy/hwDQpNPQmgdE8kgBycRuPz4/4ZdJ7uTRZJIOja+HANCo188xe5s/aVnztrZf6K3DnNWxQoCY5vTosImj6vq8LQocSIY7ZL40Nu0+Jbn17zVZUOWo8iVzqLiqp00L+hN3QsihI6yn/287POA+/mfjwtZDh0AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='ifrun60.exe' cls='ui60MDIroot_W32' title='FoccoERP - [Emissão de Notas Fiscais por Carga]' /&gt;&lt;wnd aaname='Espaço de trabalho' cls='MDIClient' /&gt;&lt;wnd cls='ui60MDIdocument_W32' title='Emissão de Notas Fiscais por Carga' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="18" Y="-9" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="fee2da429ba9a5cd5133e8e61f4a5ecc.jpg" xmlns="">0_cV3MKvbdUy1NYWjGYREIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

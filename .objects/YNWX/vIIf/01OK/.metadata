@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome FoccoERP - Login",
+  "Type": "Screen",
+  "Id": "01OKtpI4lU2y3g172bQDcg",
+  "Reference": "NH_L97teWUacEuio54ABDQ/01OKtpI4lU2y3g172bQDcg",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/vIIfV0zxKU-AHNRO-Mg0Zw",
+  "Created": "2026-09-30T19:05:01.9391557Z",
+  "Updated": "2026-09-30T19:05:01.9391557Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

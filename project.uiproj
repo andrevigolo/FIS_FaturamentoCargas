@@ -1,0 +1,6 @@
+{
+  "Name": "FIS_FaturamentoCargas",
+  "ProjectType": "Process",
+  "Description": "Processo para faturar cargas na Matriz",
+  "MainFile": "Main_new.xaml"
+}

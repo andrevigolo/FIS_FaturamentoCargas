@@ -1,0 +1,12 @@
+﻿{
+  "Name": "FoccoERP - [Emissão de Notas Fiscais por Carga]",
+  "Type": "App",
+  "Id": "wRmBUrNPn0OIneyiT_-zGg",
+  "Reference": "NH_L97teWUacEuio54ABDQ/wRmBUrNPn0OIneyiT_-zGg",
+  "Created": "2026-09-30T14:56:33.7046819Z",
+  "Updated": "2026-09-30T14:56:33.7046819Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

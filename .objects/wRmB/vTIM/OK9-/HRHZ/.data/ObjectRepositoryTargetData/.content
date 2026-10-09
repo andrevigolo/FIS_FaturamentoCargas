@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gRWMoEWd_EOeovlDFxF_QQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="240, 518, 63, 25" ElementVisibilityArgument="Interactive" Guid="3315e6e7-be69-4628-a5c8-94fabab6ecf1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD8AAAAZCAYAAACGqvb0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGsSURBVFhH7ZchroNAEIZJEBhMDQkHqK7B1lT2ADXcoQdoUs0danqAXqAWU42HpAIMtmn1NP8ms9k3u3mFF8zrIr6w/DvM8MMyG4LX60W+EjyfT0v0hdm8FH1hNi9FX5jNS9EXtPnr9UqHw8FJURTU97118RjO57PKhSNyISfOUVfGgqqqdH2M5fwUaPMoEgQBRVFEm82GttutIssyWiwWdDqd6H6/WwmGglzIj2PXdZTnuRrjYchYcLlcVDzAWM5PgWU+TVNqmkYHTHUTpnk552Kqur8xm8dgjPmyLPVnwRyPxx+JsZzN+SRJtHnXsjc1gM/tL3XHYJmP45j2+71uNrvdTmtoPGhQpoaY9XpNy+VSN0YYYo3zYMzm8XDxkHHODQ25kBO5ua5pfkhdae4TlnnZ8ADeCN6MGcdNEDfGN8qrBtewUS5katK8a3VJzbUyXdoYLPOfEnFcGIZqKSOeWa1Wakf4evMwfrvdVCwD44/H4/vNm3Hc3Pjz+FrzQxrPv2t48u3JQJMhW47c6sy4IVudCeoNrTuG+cdGir4wm5eiLyjzbdtSXdfe8QY4Vvswjijx4AAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='ifrun60.exe' cls='ui60MDIroot_W32' title='FoccoERP - [Emissão de Notas Fiscais por Carga]' /&gt;&lt;wnd aaname='Espaço de trabalho' cls='MDIClient' /&gt;&lt;wnd cls='ui60MDIdocument_W32' title='Emissão de Notas Fiscais por Carga' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="338, 514, 103, 31" Guid="0f2b5c43-7114-473b-994e-7e204a1f77db" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGcAAAAfCAYAAAD6MNNVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL2SURBVGhD7ZihjupAFIabIDAYDAkPgMasxSB5AAzvwBrEhmQ17wACgURiSFAYNMlKSEjIGhCQbLJ6br4m52Z2OkBpL92hd8SXlsOZ05nzT+ccCL6/v5XHTQLT4HEHL47DeHEcxovjMF4ch/HiOIwXx2G8OA7jxXEYL47DeHEcJrU4h8NBDQYD1e/3I6zX64h/1rg+v2ukEme326nhcKjK5bJ6eXlRrVYrpNlsqmKxqN7e3n49AdvtVlWrVRUEgarVaqnndzqd1Gw2U9Pp9O6x95JKHCbIooF7sSNavV4Pk8KuNcdliS4Obws2mR8Cdbtd9fn5GRl3CVu8R/EQcb6+vsIEsBCOFXNcltiSKfPjDSqVSqrT6UTGXcIW71E8RBwb7E6SIEcf8Fl27Xg8/vHdcrkM7Vx1e5yxgI3vriUTP+xcdXvceByT7+/vf8dxb46TdSQhM3HMwtxut8Ndy7HC2Y2NOLptPp//8MOn0WiEfiSIRBEbP73QkzT8SGgSceLGE5uM417GMF/mzfyJZ+YjDpmJoxdSoBjrY0UcPelxbQgpcYHmRJKeRJyk8XhLZIw0Sja/uGQiDsKsVitVqVTCCbM4mXhacTja2KUUd2zAfZxk2sRJEs+sYXzPWguFgvW5cclEHN4YmSw7igVy/RfiUHtICInhM3B/LZmCTZwk8czuDx/ZjLbnxuUh4ujFn3PY5mfazKTjE8dmS7BusyVT5kfyqAl60U4SL67tXlKJw9msFz4mAWYxtPlxvSVOnIYA8bFRtOX53NuSiZ9tfvqabsWTxkZvEkyb/oxfEwdsLbKg78hbftK+6i0ymK20JEoX0db6Aq3treea67kVT3ykbbbZTPSO7h5Si/NI2JFy7gtSrDnjOevNMXnCaXE4KnhDdKRYIwxdkjkmTzgtjvl7Q7h0HOUNp8X53wk2m43KI8fjUZ3P54j9mQj4MZg3JpOJ+vj4UPv9PuyURqNRxOcZCF5fX1XeWCwW4V9GiIMwvV4v4vMM/AF0MC4F4vAPbAAAAABJRU5ErkJggg==" SearchSteps="Image" TargetType="ImageBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="-9" Y="-7" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5d9d8d485f02a3ada759aa77f1d0f725.jpg" xmlns="">0q2OkGRloakWNu2YesZRy-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

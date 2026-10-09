@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click Entrar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "8Qvcf5sH_ECXHoSUEUuQMQ",
+  "Reference": "NH_L97teWUacEuio54ABDQ/8Qvcf5sH_ECXHoSUEUuQMQ",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/01OKtpI4lU2y3g172bQDcg",
+  "Created": "2026-09-30T19:08:56.0865752Z",
+  "Updated": "2026-09-30T19:08:56.0865752Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

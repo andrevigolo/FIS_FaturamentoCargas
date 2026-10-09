@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ToBhYuUJaUufZv-2-INjHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="foccoerp.sazi.com.br/proweb/erp" DesignTimeRectangle="1549, 607, 350, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Sair (Logout)' tag='BUTTON' type='button' class='ffbutton ffbutton--flat ffbutton--md ffbutton--icon ffbutton--icon-left ffbutton--justify-center' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Sair (Logout)' /&gt;" Guid="ff9c0357-fd68-4b5a-ac0c-408000cc22da" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1620, 623, 108, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Sair (Logout)' class='ffbutton__text' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Sair (Logout)' /&gt;" Guid="f40d98ab-41e6-4d32-a2ec-2b374a5dc880" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="70173cc449a85bb988b5e837842b0422.jpg" xmlns="">0yE3BTvH4vUS25DDwC1dxSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

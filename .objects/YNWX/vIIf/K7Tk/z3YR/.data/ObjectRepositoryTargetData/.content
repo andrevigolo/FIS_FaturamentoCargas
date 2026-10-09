@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HFT4SZMdFkiawV7KVRulxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="foccoerp.sazi.com.br/proweb/erp" DesignTimeRectangle="1740, 175, 159, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='erp-user-dropdown' tag='SPAN' /&gt;" Guid="b2eca14f-f28d-408a-b43a-1cd128e29251" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eb9e693a0834eb7e81edf79ee41f9b69.jpg" xmlns="">0Ddj0MRozgEuGCou0HDAhNw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eFeh3NZl6k6gcplNPIWs9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="foccoerp.sazi.com.br/proweb/Authentication/Login" DesignTimeRectangle="89, 585, 400, 45" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='txtPassword' tag='INPUT' /&gt;" Guid="baec9f6c-c8b4-4792-9001-2dcb34e5f979" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP - Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e8a693b7e9764972b15c7abe21b5a920.jpg" xmlns="">0NaIYxmHJvEG_CZNYg1Ps1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
