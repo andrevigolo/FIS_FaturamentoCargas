@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8XoUfGg3ykeLUWNqUdpzog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="211, 28, 151, 44" ElementVisibilityArgument="Interactive" Guid="85736df3-fd59-4a77-a9a7-cef607bf2bd0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJcAAAAsCAYAAABokirPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHpSURBVHhe7dbBasMwEIThvP/7+tzigmBZZqWV7SEu/IcP6tEoTmAO/RzH8QM4MC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YMC7YPDauz+fzp5t33b1/13h/pHpv8Lbv9/i48o+7+4Pv3r9qvDe/u8rf4G3fi3EVZu/91ndaedv3sowr/sD8HMV+7uSzoXs+6+VO1unNOuOs6uTz2FFnp3h/p6vOT7FT9XJn19fGdbVXZSpXPZVlnU4l31WfNbIqj1mV52w8q2w8V7nqqWyX5R/66m/VXeVVV8ndnbvR0/dyXvUq3ftVnuVe994uxiWoeyPLVCdmKq96le79Ks9yr3tvl2Vc8TnnqjvLV11l1YvnSqenOiOrzO7mMyV34r0qH5my6sXzK/7luFQ2yyNnp3PvVPW6+dM9pdNZsY0rZlUesyrvZrM86nROs944y+fVnZx3e1X+dE/pdFa+Mq54Vj3P8m5X9VSmjF51X53F8+q5ynbznI1nlY3nKlc9le2yjmuWx7NZ56TO4z1l1oufs1Ldj39nsas6VR7PKp1upzPMevFzrnhsXEDGuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGDDuGBy/PwCYOQD6U6VqE4AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='ifrun60.exe' cls='ui60Modal_W32' title='Notas Geradas' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="56b14706e823154c9e7e67ee2fde8dc5.jpg" xmlns="">0vo3gMPDHHkSEeKe90RM8Mg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "copiar",
+  "Type": "Element",
+  "Id": "kLKFo88JIkyIgYKpzbk71w",
+  "Reference": "NH_L97teWUacEuio54ABDQ/kLKFo88JIkyIgYKpzbk71w",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/yURBqjY5jUiRI90lLDc_LQ",
+  "Created": "2026-11-05T13:58:26.2380395Z",
+  "Updated": "2026-11-05T13:58:26.2380395Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
