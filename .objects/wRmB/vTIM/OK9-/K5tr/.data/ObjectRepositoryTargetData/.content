@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yKrFSi1CVkOBzdx8b3Rxbw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 574, 315" ElementVisibilityArgument="Interactive" Guid="6190b4f4-1216-43c6-a45b-657964073166" ScopeSelectorArgument="&lt;wnd app='ifrun60.exe' cls='ui60Modal_W32' title='Notas Geradas' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6bcfab53deff4c71886bf4e95d443dfd.jpg" xmlns="">0aw7oh9g_-kSksogCPxP4NA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

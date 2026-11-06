@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3HOq7m7By0O_n8bEv0e3hw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="200, 34, 170, 33" ElementVisibilityArgument="Interactive" Guid="da90642d-9e5f-4aba-b952-a37245f219b3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKoAAAAhCAYAAABJATCZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVHhe7ZfBisQwDEP7///b8y5dMAgjpe40Q+JFhwcT+bkpRZc5zvP8MWZ3XFTTAhfVtMBFNS1wUU0LXFTTAhfVtMBFNS1wUU0LXFTTgiVFPY7jj2pe5e3+W+J+hHk7sPv7ZZYWNX+otx/v7f6nxL35bpXvwK7vpXBRJzC6d9U73bHreymWFxU/Vj4j6Gcnz4LqfORlJ1PxRk7MlJPn6LDZBe4/cdn8Ah3lZWc2LYr6qacyljOPZZmKo8i77FmRqRwzlecsziyLs8qZx7LZLP8zpX4z9y5XLiO7T3aR2Xs5V56iuq/yTPaqe7NxUcW5CtuLLMMczFiuPEV1X+WZ7FX3ZrO8qHjOOXNH+Z3LuPNwzqh4zIlMMdrNM0Z2cE/lkTHuPJx/g39fVJaNcuSbTmXvQnnVfLbHqDhv2aKomKkcM5VXs1GOVJyLkRezPFc7Oa96Kp/tMSrOW7YvKs7UeZRXXeaxjBGe2mcznKuzyp7mOYszy+KscuaxbDbbFHWU42zkXLA57jFGHj7nDrWPvzPoMkflOFNU3IoTjDx8zjdYUlRjnuKimha4qKYFLqppgYtqWuCimha4qKYFLqppgYtqWuCimha4qKYB588v+ipkTdWYKAcAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='ifrun60.exe' cls='ui60Modal_W32' title='Notas Geradas' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="86, 65, 95, 26" Guid="533de4b3-f9d6-4aa5-a1f7-8382687b4b0f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF8AAAAaCAYAAADR2YAqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEQSURBVGhD7ZVRCsMwDENz/1Pkkv3u2MAgjOPESYfG0OCBLcmh6Gftuq5bcFD5RFQ+EZVPROUTUflEVD4RlU9E5RNR+URUPhGVT6Rcfmvtw0x7AnvXE2Vn4G32TuY9zXb5+IGVDz7NVu6R1bvd93dQ+Y7d93c4Kt8+Eucs5/XVrO2RZrvXI898nLNc5JnuPdRX+Ur52e49T5T1RNnR7czDedfDucLRH67NqPnM6MY81JBRFsE8gp7PZnPFi/YqR+XjHmnRnnmzrCfzvYf7aK54mbbKX5WP+6qH866Hc4Xj8mda5o2y5uE8Am981nvm45zlIs9076G+Srl88Rwqn4jKJ6LyibTe+/1rvH+R/l/0+wX4s7xfHSpMowAAAABJRU5ErkJggg==" SearchSteps="Image" TargetType="ImageBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e4ccf1d9ee9a45527f4a74352d2ce22a.jpg" xmlns="">0Csc-Q77VKEaK0dLRO2iu1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

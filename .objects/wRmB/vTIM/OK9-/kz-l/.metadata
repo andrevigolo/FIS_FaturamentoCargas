@@ -1,0 +1,13 @@
+﻿{
+  "Name": "ifrun60.exe Notas Gerad…(1)",
+  "Type": "Element",
+  "Id": "kz-lRlLOaEydJh1VL7j1yg",
+  "Reference": "NH_L97teWUacEuio54ABDQ/kz-lRlLOaEydJh1VL7j1yg",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/OK9-D0MgLkq37grSCDMcKw",
+  "Created": "2026-11-05T18:20:22.0204802Z",
+  "Updated": "2026-11-05T18:20:22.0204802Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
