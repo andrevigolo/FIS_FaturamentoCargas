@@ -494,9 +494,9 @@
                           </sap:WorkflowViewStateService.ViewState>
                           <Transition.Condition>[vException is Nothing]</Transition.Condition>
                           <Transition.To>
-                            <State x:Name="__ReferenceID8" DisplayName="Faturar Cargas" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_6">
+                            <State x:Name="__ReferenceID8" DisplayName="Faturar Cargas" sap:VirtualizedContainerService.HintSize="802,8356" sap2010:WorkflowViewState.IdRef="State_6">
                               <State.Entry>
-                                <Sequence sap:VirtualizedContainerService.HintSize="756,7317" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                <Sequence sap:VirtualizedContainerService.HintSize="756,7968" sap2010:WorkflowViewState.IdRef="Sequence_12">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="PedidoLido" />
                                   </Sequence.Variables>
@@ -505,25 +505,25 @@
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="FoccoERP - [Emissão de Notas Fiscais por Carg(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="722,7257" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="82411cb5-f069-461f-bec9-8782c4e5f28f" Version="V2">
+                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="FoccoERP - [Emissão de Notas Fiscais por Carg(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="722,7908" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="82411cb5-f069-461f-bec9-8782c4e5f28f" Version="V2">
                                     <uix:NApplicationCard.Body>
                                       <ActivityAction x:TypeArguments="x:Object">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="688,6999" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="688,7650" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dTCargas]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="654,6939" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dTCargas]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="654,7590" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                                             <ui:ForEachRow.Body>
                                               <ActivityAction x:TypeArguments="sd2:DataRow">
                                                 <ActivityAction.Argument>
                                                   <DelegateInArgument x:TypeArguments="sd2:DataRow" Name="CurrentCarga" />
                                                 </ActivityAction.Argument>
-                                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="620,6752" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="620,7403" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                                   <Sequence.Variables>
                                                     <Variable x:TypeArguments="sd2:DataTable" Name="dataTablePedidos" />
                                                     <Variable x:TypeArguments="sd2:DataTable" Name="dtSaldoCarga" />
@@ -550,7 +550,7 @@
                                                       </scg:List>
                                                     </ui:FilterDataTable.SelectColumns>
                                                   </ui:FilterDataTable>
-                                                  <If sap2010:Annotation.AnnotationText="Verifica se a carga tem saldo. Se algum item não possuir, não processa a carga e grava log." Condition="[dtSaldoCarga.RowCount &gt; 0]" DisplayName="Verifica se carga tem saldo" sap:VirtualizedContainerService.HintSize="586,6173" sap2010:WorkflowViewState.IdRef="If_4">
+                                                  <If sap2010:Annotation.AnnotationText="Verifica se a carga tem saldo. Se algum item não possuir, não processa a carga e grava log." Condition="[dtSaldoCarga.RowCount &gt; 0]" DisplayName="Verifica se carga tem saldo" sap:VirtualizedContainerService.HintSize="586,6824" sap2010:WorkflowViewState.IdRef="If_4">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -569,7 +569,7 @@
                                                       </Sequence>
                                                     </If.Then>
                                                     <If.Else>
-                                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="552,5757" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="552,6408" sap2010:WorkflowViewState.IdRef="Sequence_31">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -796,7 +796,7 @@
                                                             <uix:TargetAnchorable ContentHash="d-BqvUs9DkiWHyUmqSAPBQ" DesignTimeRectangle="744, 805, 114, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Button' title='Gerar' /&gt;" Guid="5c1ea9ec-36ef-4c29-9965-d4a4d0295059" InformativeScreenshot="0bc3a521ae6e1039382a56f4fedbac46.jpg" Reference="NH_L97teWUacEuio54ABDQ/xsHi6IMoNkyiwjnoxDPe7A" ScopeSelectorArgument="&lt;wnd app='ifrun60.exe' cls='ui60MDIroot_W32' title='FoccoERP - [Emissão de Notas Fiscais por Carga]' /&gt;&lt;wnd aaname='Espaço de trabalho' cls='MDIClient' /&gt;&lt;wnd cls='ui60MDIdocument_W32' title='Emissão de Notas Fiscais por Carga' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                                           </uix:NClick.Target>
                                                         </uix:NClick>
-                                                        <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="f13da33d-ef47-40d5-b93e-3f4c01f19035" DisplayName="CV Screen Scope 'ifrun60.exe Notas'" sap:VirtualizedContainerService.HintSize="518,1868" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
+                                                        <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="f13da33d-ef47-40d5-b93e-3f4c01f19035" DisplayName="CV Screen Scope 'ifrun60.exe Notas'" sap:VirtualizedContainerService.HintSize="518,2519" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
                                                           <p:CVScope.Body>
                                                             <ActivityAction x:TypeArguments="x:Object">
                                                               <ActivityAction.Argument>
@@ -806,7 +806,7 @@
                                                                 <Sequence.Variables>
                                                                   <Variable x:TypeArguments="x:String" Name="vNotaGerada" />
                                                                 </Sequence.Variables>
-                                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (453,370,55,25)&quot; +&#xA;&quot;Anchor: Text 'Sim' (468,376,22,12)&quot;]" DesignTimeCacheId="0df40815-f56f-4e6b-ae89-7bb6a178c3f6" DesignTimeScaleFactor="1.25" DisplayName="Gerar notas" sap:VirtualizedContainerService.HintSize="450,217" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="84968d43cf1c60135f85165b615eb659" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (453,370,55,25)&quot; +&#xA;&quot;Anchor: Text 'Sim' (468,376,22,12)&quot;]" DesignTimeCacheId="0df40815-f56f-4e6b-ae89-7bb6a178c3f6" DesignTimeScaleFactor="1.25" DisplayName="Gerar notas" sap:VirtualizedContainerService.HintSize="484,217" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="84968d43cf1c60135f85165b615eb659" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                                   <p:CvClickWithDescriptor.CursorPosition>
                                                                     <ui:CursorPosition Position="Center">
                                                                       <ui:CursorPosition.OffsetX>
@@ -840,7 +840,7 @@
                                                                     </ui:Target>
                                                                   </p:CvClickWithDescriptor.Target>
                                                                 </p:CvClickWithDescriptor>
-                                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (453,377,54,25)&quot; +&#xA;&quot;Anchor: Text 'Sim' (469,384,21,12)&quot;]" DesignTimeCacheId="9b27039d-9ee6-42c4-b859-18cd0a1fee13" DesignTimeScaleFactor="1.25" DisplayName="Gerar XML" sap:VirtualizedContainerService.HintSize="450,217" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_3" InformativeScreenshot="d97a3740937bee44713d07ca7cbd1d76" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (453,377,54,25)&quot; +&#xA;&quot;Anchor: Text 'Sim' (469,384,21,12)&quot;]" DesignTimeCacheId="9b27039d-9ee6-42c4-b859-18cd0a1fee13" DesignTimeScaleFactor="1.25" DisplayName="Gerar XML" sap:VirtualizedContainerService.HintSize="484,217" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_3" InformativeScreenshot="d97a3740937bee44713d07ca7cbd1d76" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                                   <p:CvClickWithDescriptor.CursorPosition>
                                                                     <ui:CursorPosition Position="Center">
                                                                       <ui:CursorPosition.OffsetX>
@@ -874,7 +874,7 @@
                                                                     </ui:Target>
                                                                   </p:CvClickWithDescriptor.Target>
                                                                 </p:CvClickWithDescriptor>
-                                                                <Flowchart DisplayName="Espera carregar a tela para copiar nota gerada" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+                                                                <Flowchart DisplayName="Espera carregar a tela para copiar nota gerada" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="Flowchart_1">
                                                                   <Flowchart.Variables>
                                                                     <Variable x:TypeArguments="x:String" Name="abriuTela">
                                                                       <Variable.Default>
@@ -955,7 +955,7 @@
                                                                   <x:Reference>__ReferenceID2</x:Reference>
                                                                   <x:Reference>__ReferenceID3</x:Reference>
                                                                 </Flowchart>
-                                                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="copiar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,253" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" InteractionMode="HardwareEvents" ScopeIdentifier="82411cb5-f069-461f-bec9-8782c4e5f28f" Shortcuts="[d(hk)][d(ctrl)]c[u(ctrl)][u(hk)]" Version="V5">
+                                                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="copiar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,253" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" InteractionMode="HardwareEvents" ScopeIdentifier="82411cb5-f069-461f-bec9-8782c4e5f28f" Shortcuts="[d(hk)][d(ctrl)]c[u(ctrl)][u(hk)]" Version="V5">
                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -963,12 +963,12 @@
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
                                                                 </uix:NKeyboardShortcuts>
-                                                                <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="GetFromClipboard_2">
+                                                                <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="GetFromClipboard_2">
                                                                   <ui:GetFromClipboard.Result>
                                                                     <OutArgument x:TypeArguments="x:String">[vNotaGerada]</OutArgument>
                                                                   </ui:GetFromClipboard.Result>
                                                                 </ui:GetFromClipboard>
-                                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (448,445,104,22)&quot; +&#xA;&quot;Anchor: Text 'OK' (490,449,19,12)&quot;]" DesignTimeCacheId="44e0fc10-f243-4904-8c02-f195a53bc9c8" DesignTimeScaleFactor="1" DisplayName="CV Click - Botão" sap:VirtualizedContainerService.HintSize="450,217" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="23d20527c06cd1dd6c73cf43a9c8cde0" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" TimeoutMS="60000" Version="V6">
+                                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Button (448,445,104,22)&quot; +&#xA;&quot;Anchor: Text 'OK' (490,449,19,12)&quot;]" DesignTimeCacheId="44e0fc10-f243-4904-8c02-f195a53bc9c8" DesignTimeScaleFactor="1" DisplayName="CV Click - Botão" sap:VirtualizedContainerService.HintSize="484,217" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="23d20527c06cd1dd6c73cf43a9c8cde0" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" TimeoutMS="60000" Version="V6">
                                                                   <p:CvClickWithDescriptor.CursorPosition>
                                                                     <ui:CursorPosition Position="Center">
                                                                       <ui:CursorPosition.OffsetX>
@@ -1002,20 +1002,44 @@
                                                                     </ui:Target>
                                                                   </p:CvClickWithDescriptor.Target>
                                                                 </p:CvClickWithDescriptor>
-                                                                <Sequence sap2010:Annotation.AnnotationText="Salva na tabela para enviar email e na fila do orchestrator para faturar os vasilhames." DisplayName="Salvar infos das notas geradas" sap:VirtualizedContainerService.HintSize="450,509" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                                                                <Sequence sap2010:Annotation.AnnotationText="Salva na tabela para enviar email e na fila do orchestrator para faturar os vasilhames.&#xD;&#xA;O email envia todas as cargas geradas, enquanto apenas as cargas da JD são salvas para envio dos vasilhames." DisplayName="Salvar infos das notas geradas" sap:VirtualizedContainerService.HintSize="484,1160" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                                                                  <Sequence.Variables>
+                                                                    <Variable x:TypeArguments="sd2:DataTable" Name="dt_SalvaNotaVasilhame" />
+                                                                  </Sequence.Variables>
                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <ui:AddQueueItem TimeoutMS="{x:Null}" DisplayName="Add Queue Item" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="cargas x notas">
-                                                                    <ui:AddQueueItem.ItemInformation>
-                                                                      <InArgument x:TypeArguments="x:String" x:Key="Carga">[CurrentCarga.Item(1).ToString]</InArgument>
-                                                                      <InArgument x:TypeArguments="x:String" x:Key="Nota">[vNotaGerada.ToString]</InArgument>
-                                                                    </ui:AddQueueItem.ItemInformation>
-                                                                  </ui:AddQueueItem>
-                                                                  <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{CurrentCarga.Item(1).ToString,vNotaGerada.ToString}]" DataTable="[tdNotasGeradas]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,209" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                                                                  <c:Connect Banco="Oracle" Base="PRO" DataTableR="[dt_SalvaNotaVasilhame]" Empresa="SAZI" sap:VirtualizedContainerService.HintSize="450,326" sap2010:WorkflowViewState.IdRef="Connect_5" Query="[&quot;Select 1&#xD;&#xA;From tnfs_saida&#xD;&#xA;Join tempresas On tempresas.id = tnfs_saida.empr_id&#xD;&#xA;Join tclientes On tclientes.id = tnfs_saida.cli_id&#xD;&#xA;Join testabelecimentos estab On estab.id = tnfs_saida.est_id_entr&#xD;&#xA;Where tempresas.cod_emp = 1&#xD;&#xA;And tclientes.cod_cli = 35&#xD;&#xA;And estab.cod_est In (1,2,4,7,9)&#xD;&#xA;And num_nf = &quot; + vNotaGerada.ToString]" />
+                                                                  <If Condition="[dt_SalvaNotaVasilhame.RowCount &gt;= 1]" DisplayName="Se nota cliente 35, salva na queue" sap:VirtualizedContainerService.HintSize="450,485" sap2010:WorkflowViewState.IdRef="If_6">
+                                                                    <If.Then>
+                                                                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                        <ui:AddQueueItem TimeoutMS="{x:Null}" DisplayName="Add Queue Item" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="cargas x notas">
+                                                                          <ui:AddQueueItem.ItemInformation>
+                                                                            <InArgument x:TypeArguments="x:String" x:Key="Carga">[CurrentCarga.Item(1).ToString]</InArgument>
+                                                                            <InArgument x:TypeArguments="x:String" x:Key="Nota">[vNotaGerada.ToString]</InArgument>
+                                                                          </ui:AddQueueItem.ItemInformation>
+                                                                        </ui:AddQueueItem>
+                                                                      </Sequence>
+                                                                    </If.Then>
+                                                                    <If.Else>
+                                                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                      </Sequence>
+                                                                    </If.Else>
+                                                                  </If>
+                                                                  <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{CurrentCarga.Item(1).ToString,vNotaGerada.ToString}]" DataTable="[tdNotasGeradas]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="450,209" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
                                                                 </Sequence>
                                                               </Sequence>
                                                             </ActivityAction>
@@ -2431,35 +2455,35 @@
                                   <Transition.To>
                                     <State x:Name="__ReferenceID10" DisplayName="Fechar Focco" sap:VirtualizedContainerService.HintSize="170,70" sap2010:WorkflowViewState.IdRef="State_10">
                                       <State.Entry>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="650,1111" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="552,1098" sap2010:WorkflowViewState.IdRef="Sequence_34">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" AppliesTo="All" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="616,175" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="IFRUN60.EXE" />
-                                          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="616,876" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InUiElement="[outBrowser]" IsDisplayNameAuto="True" ScopeGuid="33d9df70-0c93-41bb-97ef-cc33e918242e" Version="V2">
+                                          <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" AppliesTo="All" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="518,173" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="IFRUN60.EXE" />
+                                          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,865" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InUiElement="[outBrowser]" IsDisplayNameAuto="True" ScopeGuid="33d9df70-0c93-41bb-97ef-cc33e918242e" Version="V2">
                                             <uix:NApplicationCard.Body>
                                               <ActivityAction x:TypeArguments="x:Object">
                                                 <ActivityAction.Argument>
                                                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                                 </ActivityAction.Argument>
-                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,754" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,728" sap2010:WorkflowViewState.IdRef="Sequence_33">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="452,509" sap2010:WorkflowViewState.IdRef="RetryScope_2" RetryInterval="00:00:10">
+                                                  <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="450,488" sap2010:WorkflowViewState.IdRef="RetryScope_2" RetryInterval="00:00:10">
                                                     <ui:RetryScope.ActivityBody>
                                                       <ActivityAction>
-                                                        <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                                                        <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="Sequence_32">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'RPA'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33d9df70-0c93-41bb-97ef-cc33e918242e" Version="V5">
+                                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'RPA'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,180" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33d9df70-0c93-41bb-97ef-cc33e918242e" Version="V5">
                                                             <uix:NClick.Target>
                                                               <uix:TargetAnchorable BrowserURL="foccoerp.sazi.com.br/proweb/erp" ContentHash="HFT4SZMdFkiawV7KVRulxw" DesignTimeRectangle="1740, 175, 159, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='erp-user-dropdown' tag='SPAN' /&gt;" Guid="b2eca14f-f28d-408a-b43a-1cd128e29251" InformativeScreenshot="eb9e693a0834eb7e81edf79ee41f9b69.jpg" Reference="NH_L97teWUacEuio54ABDQ/z3YRx-URdU-d8uYjqbrnVg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                                             </uix:NClick.Target>
@@ -2469,7 +2493,7 @@
                                                     </ui:RetryScope.ActivityBody>
                                                     <ui:RetryScope.Condition>
                                                       <ActivityFunc x:TypeArguments="x:Boolean">
-                                                        <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'BUTTON'" sap:VirtualizedContainerService.HintSize="426,107" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+                                                        <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'BUTTON'" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
                                                           <ui:UiElementExists.Target>
                                                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fe2d0ac2-91b6-4025-8e03-baeee4b03ed8" InformativeScreenshot="2b9a3bcbf7c2b160352704cff4fa2cd3" Selector="&lt;html app='chrome.exe' title='FoccoERP' /&gt;&lt;webctrl aaname='Sair (Logout)' tag='BUTTON' type='button' /&gt;">
                                                               <ui:Target.TimeoutMS>
@@ -2484,7 +2508,7 @@
                                                       </ActivityFunc>
                                                     </ui:RetryScope.Condition>
                                                   </ui:RetryScope>
-                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sair (Logout)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,185" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33d9df70-0c93-41bb-97ef-cc33e918242e" Version="V5">
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sair (Logout)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,180" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33d9df70-0c93-41bb-97ef-cc33e918242e" Version="V5">
                                                     <uix:NClick.Target>
                                                       <uix:TargetAnchorable BrowserURL="foccoerp.sazi.com.br/proweb/erp" ContentHash="ToBhYuUJaUufZv-2-INjHw" DesignTimeRectangle="1549, 607, 350, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Sair (Logout)' tag='BUTTON' type='button' class='ffbutton ffbutton--flat ffbutton--md ffbutton--icon ffbutton--icon-left ffbutton--justify-center' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Sair (Logout)' /&gt;" Guid="ff9c0357-fd68-4b5a-ac0c-408000cc22da" InformativeScreenshot="70173cc449a85bb988b5e837842b0422.jpg" Reference="NH_L97teWUacEuio54ABDQ/OAc3l9fucUW4XpMo276oxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                         <uix:TargetAnchorable.Anchors>
