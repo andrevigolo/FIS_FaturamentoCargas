@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Encerrar outras sessões",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "K5c7CdveLkCCpJCHzwaCug",
+  "Reference": "NH_L97teWUacEuio54ABDQ/K5c7CdveLkCCpJCHzwaCug",
+  "ParentRef": "NH_L97teWUacEuio54ABDQ/01OKtpI4lU2y3g172bQDcg",
+  "Created": "2026-11-17T13:02:04.7224146Z",
+  "Updated": "2026-11-17T13:02:04.7224146Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

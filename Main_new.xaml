@@ -257,15 +257,16 @@
           </sap:WorkflowViewStateService.ViewState>
           <Transition.Condition>[vException is Nothing]</Transition.Condition>
           <Transition.To>
-            <State x:Name="__ReferenceID6" DisplayName="Abrir Focco" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_4">
+            <State x:Name="__ReferenceID6" DisplayName="Abrir Focco" sap:VirtualizedContainerService.HintSize="666,2591" sap2010:WorkflowViewState.IdRef="State_4">
               <State.Entry>
-                <Sequence sap:VirtualizedContainerService.HintSize="518,1287" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence sap:VirtualizedContainerService.HintSize="620,2230" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Assign sap:VirtualizedContainerService.HintSize="484,114" sap2010:WorkflowViewState.IdRef="Assign_5">
+                  <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" AppliesTo="All" DisplayName="Mata Chrome" sap:VirtualizedContainerService.HintSize="586,173" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="chrome" />
+                  <Assign sap:VirtualizedContainerService.HintSize="586,114" sap2010:WorkflowViewState.IdRef="Assign_5">
                     <Assign.To>
                       <OutArgument x:TypeArguments="s:Exception">[vException]</OutArgument>
                     </Assign.To>
@@ -273,13 +274,13 @@
                       <InArgument x:TypeArguments="s:Exception">[CType(Nothing, System.Exception)]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome FoccoERP - Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1113" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" OutUiElement="[outBrowser]" ScopeGuid="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Version="V2" WindowResize="Maximize">
+                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome FoccoERP - Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="586,1883" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" OutUiElement="[outBrowser]" ScopeGuid="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Version="V2" WindowResize="Maximize">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,906" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="552,1676" sap2010:WorkflowViewState.IdRef="Sequence_4">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="vuser" />
                             <Variable x:TypeArguments="ss:SecureString" Name="vpass" />
@@ -289,8 +290,8 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="FoccoERP" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[vpass]" Username="[vuser]" />
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Digitar Usuário" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Text="[vuser]" Version="V5">
+                          <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="FoccoERP" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="518,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[vpass]" Username="[vuser]" />
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Digitar Usuário" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="518,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Text="[vuser]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="foccoerp.sazi.com.br/proweb/Authentication/Login" ContentHash="qjyTXf6OYEaiaIj5MjPjIQ" DesignTimeRectangle="89, 520, 400, 45" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='txtUser' tag='INPUT' /&gt;" Guid="f332d019-a1d7-41d3-ac48-2af8250503a9" InformativeScreenshot="eea29d01b579075294ef0e1c1d318bd8.jpg" Reference="NH_L97teWUacEuio54ABDQ/IA9rd9t46kyLTzI-lRR6Kw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP - Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                             </uix:NTypeInto.Target>
@@ -305,7 +306,7 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Digitar Senha" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" SecureText="[vpass]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Digitar Senha" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="518,240" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" SecureText="[vpass]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="foccoerp.sazi.com.br/proweb/Authentication/Login" ContentHash="eFeh3NZl6k6gcplNPIWs9w" DesignTimeRectangle="89, 585, 400, 45" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='txtPassword' tag='INPUT' /&gt;" Guid="baec9f6c-c8b4-4792-9001-2dcb34e5f979" InformativeScreenshot="e8a693b7e9764972b15c7abe21b5a920.jpg" Reference="NH_L97teWUacEuio54ABDQ/Nm99yYGkpEmNmkFI8CbKKg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP - Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                             </uix:NTypeInto.Target>
@@ -320,11 +321,46 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Entrar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Entrar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="518,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="foccoerp.sazi.com.br/proweb/Authentication/Login" ContentHash="e0vnZzL4fECUrChOLs01TQ" DesignTimeRectangle="383, 650, 106, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnSignin' tag='INPUT' /&gt;" Guid="c2789b8e-5e77-4a21-803e-9d325e56ca03" InformativeScreenshot="0460b4908fa7a0812b591a4c27d96946.jpg" Reference="NH_L97teWUacEuio54ABDQ/8Qvcf5sH_ECXHoSUEUuQMQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP - Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                             </uix:NClick.Target>
                           </uix:NClick>
+                          <Sequence DisplayName="Fechar sessão ativa" sap:VirtualizedContainerService.HintSize="518,772" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NCheckState DisplayName="Check App State 'Encerrar outras sessões'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,689" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Version="V5">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Destino aparece" sap:VirtualizedContainerService.HintSize="450,240" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Encerrar outras sessões(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9c522dbd-32c6-48b9-8dcc-c948b2c72c19" Version="V5">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="foccoerp.sazi.com.br/ProWeb/Authentication/Login" ContentHash="0RcEjh-tZEm9kBxXPZbYBg" DesignTimeRectangle="667, 476, 221, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnSessionAlreadyActiveContinue' tag='INPUT' /&gt;" Guid="697243c7-a26f-47e6-bb11-c308fba3d180" InformativeScreenshot="79b6a3f91514d8349a4a681a8446ec68.jpg" Reference="NH_L97teWUacEuio54ABDQ/RLJUm2CDkUqpSUxuBjBGdg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP - Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                    </uix:NClick.Target>
+                                  </uix:NClick>
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Destino não aparece" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable BrowserURL="foccoerp.sazi.com.br/ProWeb/Authentication/Login" ContentHash="k1MpZOuddk-ZiyeRBXjWSA" DesignTimeRectangle="667, 476, 221, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnSessionAlreadyActiveContinue' tag='INPUT' /&gt;" Guid="0574d383-5737-4876-a3d7-758f6669836f" InformativeScreenshot="97fc0b21cc9ea85af2967e6aa99fd777.jpg" Reference="NH_L97teWUacEuio54ABDQ/K5c7CdveLkCCpJCHzwaCug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP - Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NCheckState.Target>
+                            </uix:NCheckState>
+                          </Sequence>
                         </Sequence>
                       </ActivityAction>
                     </uix:NApplicationCard.Body>
@@ -1002,7 +1038,7 @@
                                                                     </ui:Target>
                                                                   </p:CvClickWithDescriptor.Target>
                                                                 </p:CvClickWithDescriptor>
-                                                                <Sequence sap2010:Annotation.AnnotationText="Salva na tabela para enviar email e na fila do orchestrator para faturar os vasilhames.&#xD;&#xA;O email envia todas as cargas geradas, enquanto apenas as cargas da JD são salvas para envio dos vasilhames." DisplayName="Salvar infos das notas geradas" sap:VirtualizedContainerService.HintSize="484,1160" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                                                                <Sequence sap2010:Annotation.AnnotationText="Salva na tabela para enviar email e na fila do orchestrator para faturar os vasilhames.&#xA;O email envia todas as cargas geradas, enquanto apenas as cargas da JD são salvas para envio dos vasilhames." DisplayName="Salvar infos das notas geradas" sap:VirtualizedContainerService.HintSize="484,1160" sap2010:WorkflowViewState.IdRef="Sequence_40">
                                                                   <Sequence.Variables>
                                                                     <Variable x:TypeArguments="sd2:DataTable" Name="dt_SalvaNotaVasilhame" />
                                                                   </Sequence.Variables>
@@ -1012,7 +1048,7 @@
                                                                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <c:Connect Banco="Oracle" Base="PRO" DataTableR="[dt_SalvaNotaVasilhame]" Empresa="SAZI" sap:VirtualizedContainerService.HintSize="450,326" sap2010:WorkflowViewState.IdRef="Connect_5" Query="[&quot;Select 1&#xD;&#xA;From tnfs_saida&#xD;&#xA;Join tempresas On tempresas.id = tnfs_saida.empr_id&#xD;&#xA;Join tclientes On tclientes.id = tnfs_saida.cli_id&#xD;&#xA;Join testabelecimentos estab On estab.id = tnfs_saida.est_id_entr&#xD;&#xA;Where tempresas.cod_emp = 1&#xD;&#xA;And tclientes.cod_cli = 35&#xD;&#xA;And estab.cod_est In (1,2,4,7,9)&#xD;&#xA;And num_nf = &quot; + vNotaGerada.ToString]" />
+                                                                  <c:Connect Banco="Oracle" Base="PRO" DataTableR="[dt_SalvaNotaVasilhame]" Empresa="SAZI" sap:VirtualizedContainerService.HintSize="450,326" sap2010:WorkflowViewState.IdRef="Connect_5" Query="[&quot;Select 1&#xA;From tnfs_saida&#xA;Join tempresas On tempresas.id = tnfs_saida.empr_id&#xA;Join tclientes On tclientes.id = tnfs_saida.cli_id&#xA;Join testabelecimentos estab On estab.id = tnfs_saida.est_id_entr&#xA;Where tempresas.cod_emp = 1&#xA;And tclientes.cod_cli = 35&#xA;And estab.cod_est In (1,2,4,7,9)&#xA;And num_nf = &quot; + vNotaGerada.ToString]" />
                                                                   <If Condition="[dt_SalvaNotaVasilhame.RowCount &gt;= 1]" DisplayName="Se nota cliente 35, salva na queue" sap:VirtualizedContainerService.HintSize="450,485" sap2010:WorkflowViewState.IdRef="If_6">
                                                                     <If.Then>
                                                                       <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_43">
@@ -2653,7 +2689,7 @@
                           </sap:WorkflowViewStateService.ViewState>
                           <Transition.Condition>[vException IsNot Nothing]</Transition.Condition>
                           <Transition.To>
-                            <State x:Name="__ReferenceID9" DisplayName="Fechar Focco" sap:VirtualizedContainerService.HintSize="153,60" sap2010:WorkflowViewState.IdRef="State_7">
+                            <State x:Name="__ReferenceID9" DisplayName="Fechar Focco" sap:VirtualizedContainerService.HintSize="162,60" sap2010:WorkflowViewState.IdRef="State_7">
                               <State.Entry>
                                 <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,842" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InUiElement="[outBrowser]" IsDisplayNameAuto="True" ScopeGuid="33d9df70-0c93-41bb-97ef-cc33e918242e" Version="V2">
                                   <uix:NApplicationCard.Body>
@@ -2730,7 +2766,7 @@
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">534,400</av:Point>
-                                  <av:Size x:Key="ShapeSize">153,60</av:Size>
+                                  <av:Size x:Key="ShapeSize">162,60</av:Size>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   <x:Double x:Key="StateContainerWidth">138</x:Double>
                                   <x:Double x:Key="StateContainerHeight">29</x:Double>
@@ -2742,7 +2778,7 @@
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Int32 x:Key="SrcConnectionPointIndex">36</x:Int32>
                                       <x:Int32 x:Key="DestConnectionPointIndex">41</x:Int32>
-                                      <av:PointCollection x:Key="ConnectorLocation">687,430 717,430 717,513.5 825,513.5</av:PointCollection>
+                                      <av:PointCollection x:Key="ConnectorLocation">696,430 726,430 726,513.5 825,513.5</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <Transition.To>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0RcEjh-tZEm9kBxXPZbYBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="foccoerp.sazi.com.br/ProWeb/Authentication/Login" DesignTimeRectangle="667, 476, 221, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnSessionAlreadyActiveContinue' tag='INPUT' /&gt;" Guid="697243c7-a26f-47e6-bb11-c308fba3d180" ScopeSelectorArgument="&lt;html app='chrome.exe' title='FoccoERP - Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="79b6a3f91514d8349a4a681a8446ec68.jpg" xmlns="">0Q1ey-mGKl0iu2BrpYt81Cw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
